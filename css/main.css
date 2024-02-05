@@ -10,6 +10,7 @@
     --Outfit: "Outfit";
     --YoungSerif: "YoungSeif";
     --Eggshell: #F3E5D7;
+    --Snow:#FFF7FB;
 
 }
 
@@ -36,4 +37,138 @@
         font-family: var(--Outfit);
         background-color: var(--Eggshell);
         font-size: 16px;
+        padding-top: 123px;
+        padding-bottom: 123px;
+
+    }
+
+    .cards {
+        max-width: 736px;
+        width: 100%;
+        padding: 40px;
+        background-color: #fff;
+        margin: auto;
+        border-radius: 24px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+
+    }
+    .card-image {
+        width: 100%;
+        height: 300px;
+        border-radius: 12px;
+        object-fit: cover;
+
+    }
+    .card-image__photo {
+        border-radius: 12px;
+        object-fit: cover;
+
+    }
+    .cards-body {
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+
+    }
+    .cards-recipe {
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+
+    }
+    .cards-recipe__headline {
+        font-size: 40px;
+        font-family:var(--YoungSerif) ;
+        font-weight:400px ;
+        line-height:40px ;
+        color: var(--Dark-Charcoal);
+    }
+    .cards-recipe__desk {
+
+        font-family: var(--Outfit);
+        font-size: 16px;
+        font-weight:400 ;
+        line-height:24px ;
+        color:var(--Wenge-Brown) ;
+    }
+    /* preparation__time */
+    .preparation__time {
+        background-color: var(--Snow);
+         padding: 28px;
+         border-radius: 12px;
+         display: flex;
+         flex-direction: column;
+         row-gap: 16px;
+
+    }
+    .preparation_time-title {
+        color: var(--Dark-Raspberry);
+        font-size:20px ;
+        font-family: var(--Outfit);
+        font-weight: 600;
+        line-height:100% ;
+    }
+    .preparation__time__list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+
+    }
+    .preparation__time__item {
+        display: flex;
+        align-items: center;
+        column-gap: 28px;
+    }
+    .preparation__time__text {
+        color:var(--Wenge-Brown) ;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        
+    }
+    .preparation__time-span {
+        font-weight: 700;
+
+    }
+
+    .preparation-time {
+        background-color: var(--Snow);
+        padding: 28px;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+    }
+    
+    .preparation-time__title {
+        color: var(--Dark-Raspberry);
+        font-family: var(--Outfit);
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 100%;
+    }
+    
+    .preparation-time__list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+    }
+    
+    .preparation-time__item {
+        display: flex;
+        align-items: center;
+        column-gap: 28px;
+    }
+    
+    .preparation-time__text {
+        color: var(--Wenge-Brown);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    
+    .preparation-time__span{
+        font-weight: 700;
     }
